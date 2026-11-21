@@ -7,7 +7,6 @@ Day12_upload_22_images/
 *.mp4
 part_*.zip
 peer_*.zip
-K5-L2-DAY12-*.zip
 K5-L2-DAY12-*/
 ir_pairs/
 __pycache__/

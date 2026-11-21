@@ -1,0 +1,6 @@
+File: part_B.zip · chỉ kiểm ảnh: D01, D02
+Ảnh: 2 · đã có frame_meta: 2 · số đối tượng: face=2, face13=2, hand=4, person=2
+Kết quả: 0 lỗi, 0 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.
+
+[Ghi chú tự kiểm D01-D02]
+Cảnh báo left_eye_outer so theo trục X xuất hiện do ảnh Drive&Act bị xoay ~90 độ. Đã kiểm tra kỹ theo trục Y: mắt trái của người lái có toạ độ Y lớn hơn (nằm thấp hơn) mắt phải, hoàn toàn đúng chuẩn giải phẫu và tư thế người lái theo Guideline Cabin v1.0.

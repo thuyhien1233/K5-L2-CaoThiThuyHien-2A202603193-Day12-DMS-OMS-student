@@ -1,0 +1,8 @@
+File: export_final.zip
+Ảnh: 22 · đã có frame_meta: 22 · số đối tượng: child_seat=4, face=22, face13=6, hand=12, infant_seat=6, object=6, person=22
+Kết quả: 0 lỗi, 0 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.
+
+[Ghi chú giải thích các cảnh báo còn lại]
+1. Cảnh báo light='unknown' trên các ảnh S01-S08: Do SVIRO là tập dữ liệu mô phỏng 3D, không có thời gian thực tế trong ngày, tuân thủ đúng Guideline 3.
+2. Cảnh báo left_eye_outer so theo trục X trên D01-D06: Do ảnh NIR bị xoay 90 độ, trục hai mắt chạy dọc theo trục Y. Đã xác nhận mọi khung hình D## đều có left_eye_* mang toạ độ Y lớn hơn right_eye_*, đúng quy ước trái/phải theo người lái theo Guideline 4.4 và 4.6.
+3. Các cảnh báo seatbelt trên SVIRO: Đã xác nhận toàn bộ chỉ gán not_worn hoặc unknown, không có nhãn worn_correct.

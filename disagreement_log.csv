@@ -1,0 +1,7 @@
+﻿image,label,field,issue,mine,peer,verdict,guideline_rule,action
+D02.png,face,eye_right,khác giá trị (IoU=1.00),open,unknown,mine,4.5,Giữ nguyên open ở mine; phóng to 200% trên CVAT nhìn thấy rõ khe mí mở qua tròng kính trong suốt.
+D03.png,face,gaze_zone,khác giá trị (IoU=1.00),lap,other,mine,4.5,Giữ nguyên lap ở mine; tài xế đang cúi đầu nhìn xuống vùng đùi.
+D04.png,face13,left_eye_upper.occluded,khác cờ,0,1,mine,4.6,Giữ occluded=0 ở mine; mí mắt trái nhìn rõ ràng không bị tóc hay gọng kính che.
+S03_ir.png,person,seatbelt,khác giá trị (IoU=1.00),unknown,not_worn,mine,4.4-1,"Giữ nguyên unknown ở mine vì áo tối màu dưới ánh sáng IR không thấy rõ dây, bạn gán not_worn là suy đoán."
+S05_rgb.png,object,type,khác giá trị (IoU=1.00),box,other,mine,4.8,"Giữ nguyên box ở mine; hình khối hộp carton vuông vức rõ ràng, không nên chọn other."
+S07_ir.png,person,seatbelt,khác giá trị (IoU=1.00),not_worn,unknown,mine,4.4-1,Giữ not_worn ở mine; người ngồi thấy rõ ngực và dải dây buông cạnh sườn không thắt.

@@ -1,0 +1,7 @@
+frame_id,source,phenomenon,affected_field,effect_on_label
+S01_ir,IR_sim,"Áo tối màu và dây an toàn có độ phản xạ hồng ngoại mô phỏng gần như nhau làm mất hoàn toàn tương phản mép dây",seatbelt,"Gán unknown thay vì cố đoán; trên ảnh màu RGB dải dây phân biệt rõ hơn nhờ độ bóng bề mặt"
+S03_ir,IR_sim,"Trong điều kiện thiếu sáng ngoại thất ảnh IR-sim có độ sáng đồng đều nhưng mất sắc độ nhận diện màu sắc của vật thể và đệm ghế",object_type,"Phải phân loại vật thể dựa vào hình khối học 3D thay vì màu sắc nhận diện"
+S06_ir,IR_sim,"Cảnh đêm tối ngoài xe ảnh IR-sim giữ được hình khối thân người nhưng mất chi tiết hoa văn trang phục",seatbelt,"Giữ seatbelt=not_worn do thấy rõ khoảng trống ngực không có dây vắt qua"
+D02,real_IR,"Đèn LED hồng ngoại chiếu xiên tạo độ chói mờ trên tròng kính mắt phải nhưng mắt trái nhìn xuyên rõ tròng kính",glasses,"Gán glasses=clear vì thấy gọng kính và tròng trong suốt; mắt trái gán open theo khe mí thấy được"
+D03,real_IR,"Phản xạ chóa đốm sáng của chùm LED NIR 940nm trực tiếp lên tròng kính che khuất mí trên mắt phải",eye_right,"Gán eye_right=unknown và đánh cờ occluded=1 cho các điểm mí mắt trên face13 thay vì gán closed"
+D04,real_IR,"Cường độ bức xạ NIR suy giảm nhanh theo khoảng cách từ nguồn phát khiến vùng đùi và sàn xe tối hơn khuôn mặt",hand,"Gán hand.on_wheel=no dựa trên vị trí cánh tay và cổ tay dù bàn tay chìm một phần vào bóng tối"
